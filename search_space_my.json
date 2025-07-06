@@ -1,0 +1,8 @@
+{
+       "graph_emb": {"_type":"quniform","_value": [50, 1000, 50]},
+       "lr": {"_type": "loguniform", "_value": [0.0001, 0.1]},
+        "batch_size": {"_type": "choice", "value": [128,256,512,1024]},
+        "momentum": {"_type": "uniform", "_value": [0, 1]},
+       "features": {"_type": "choice", "_value": [128, 256, 512, 1024]}
+}
+
